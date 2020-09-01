@@ -1,0 +1,11 @@
+{% extends "recommendation.html" %}
+
+{% block body %} 
+    {% for movie in lis %}
+    <br>
+    <h1 style="color: blanchedalmond;">
+        
+        {{movie}}
+    </h1>
+    {% endfor %}
+{% endblock %}
